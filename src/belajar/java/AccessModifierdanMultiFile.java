@@ -21,7 +21,7 @@ public class AccessModifierdanMultiFile {
         // dapat di panggil walaupun dalam kelas yang lain karna berada pada package yang sama
         ClassLain.methodDefault();
         
-        // masih dapat dipangil walaupun berada pada kelas yang lain
+        // masih dapat dipangil walaupun berada pada kelas yang lain tetapi masih package yang sama
         ClassLain.methodProtected();
         
         // memanggil dari kelas dengan package yang beda
